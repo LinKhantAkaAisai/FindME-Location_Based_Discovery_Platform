@@ -1,0 +1,65 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+bin/
+obj/
+
+# Environment variables (CRITICAL: Do not leak your DB credentials or secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database / Prisma
+/prisma/migrations/
+*.db
+*.db-journal
+
+# React Native / Expo specific
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# iOS specific
+ios/Pods/
+ios/build/
+ios/.xccheckout
+ios/*.xcworkspace
+ios/*.xcuserdata
+ios/*.pvr
+ios/*.app
+ios/*.ipa
+ios/*.xcuserstate
+
+# Android specific
+android/app/build/
+android/.gradle/
+android/local.properties
+android/generated/
+android/*.keystore
+android/*.bundle
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Editor / System files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
