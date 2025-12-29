@@ -7,16 +7,13 @@ This is a specialized mobile app designed to help people find the best local spo
 
 ## The Team
 
-* 
-**Min Thu Khaing** (2021-miit-cse-034) 
+* **Min Thu Khaing** (2021-miit-cse-034) 
 
 
-* 
-**Lin Khant Min Maung** (2021-miit-cse-027) 
+* **Lin Khant Min Maung** (2021-miit-cse-027) 
 
 
-* 
-**Phoo Phoo Khaing Thinn** (2021-miit-cse-051) 
+* **Phoo Phoo Khaing Thinn** (2021-miit-cse-051) 
 
 
 * 
