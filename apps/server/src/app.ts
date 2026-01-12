@@ -10,5 +10,9 @@ app.get('/health', (req, res) => {
   res.json({ status: 'server is alive and kicking' });
 });
 
+app.get('/', (req, res) => {
+  res.send('FindMe API is running...');
+});
+
 
 export default app;
