@@ -19,3 +19,12 @@ export const getAllShops = async () => {
   const { rows } = await pool.query('SELECT * FROM shops ORDER BY created_at DESC');
   return rows;
 };
+
+
+export const searchShops = async (term: string) => {
+  const { rows } = await pool.query(
+    "SELECT * FROM shops WHERE name ILIKE $1 OR category ILIKE $1",
+    [`%${term}%`]
+  );
+  return rows;
+};

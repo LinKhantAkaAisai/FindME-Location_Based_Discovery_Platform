@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import { createShop, getAllShops } from './shops.service.js';
+import { createShop, getAllShops ,searchShops} from './shops.service.js';
 
 export const addShop = async (req: Request, res: Response) => {
   try {
@@ -13,9 +13,13 @@ export const addShop = async (req: Request, res: Response) => {
   }
 };
 
-export const listShops = async (_req: Request, res: Response) => {
+export const listShops = async (req: Request, res: Response) => {
   try {
-    const shops = await getAllShops();
+    const { search } = req.query;
+    const shops = search 
+      ? await searchShops(search as string) 
+      : await getAllShops();
+      
     res.json(shops);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch shops' });
