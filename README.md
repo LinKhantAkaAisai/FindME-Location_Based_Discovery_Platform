@@ -54,4 +54,17 @@ This is a specialized mobile app designed to help people find the best local spo
 5. **Start the Engines:** Run the backend server first, then launch the React Native app.
 
 
-# update
+
+## 🌟 Key Social Highlights
+- **Unified Comments**: Real-time interaction available on any post.
+- **Flexible Profiles**: Hybrid grid/timeline views for user expression.
+- **Geo-Discovery**: Integrated map picking and check-in tagging.
+- **Shop Hierarchy**: Premium tiers with dedicated dashboards for owners.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React Native, Expo, React Navigation, Ionicons.
+- **Backend**: Express.js, PostgreSQL, Multer (Media), JWT (Auth).
+
+
