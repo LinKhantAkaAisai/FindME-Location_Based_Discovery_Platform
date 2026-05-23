@@ -1,0 +1,26 @@
+# Shop Backend Requirements
+# Node.js Dependencies based on package.json
+
+# Core Framework
+express==5.2.1
+
+# Database
+pg==8.18.0
+
+# Authentication & Security
+bcrypt==6.0.0
+jsonwebtoken==9.0.3
+
+# Middleware
+cors==2.8.6
+multer==2.0.2
+
+# Environment & Configuration
+dotenv==17.2.3
+
+# Development Tools
+nodemon==3.1.11
+
+# Note: This project uses Node.js, not Python
+# Install with: npm install
+# Or run: npm install
