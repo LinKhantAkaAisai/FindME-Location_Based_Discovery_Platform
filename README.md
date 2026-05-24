@@ -7,11 +7,14 @@ This is a specialized mobile app designed to help people find the best local spo
 
 ## The Team
 
-* **Min Thu Khaing** (2021-miit-cse-034) 
+* **Lin Khant Min Maung** (2021-miit-cse-027)
+* Role - Frontend Developer / Backend Developer
 
-* **Lin Khant Min Maung** (2021-miit-cse-027) 
+* **Min Thu Khaing** (2021-miit-cse-034)
+* Role - Backend Developer
 
-* **Phoo Phoo Khaing Thinn** (2021-miit-cse-051) 
+* **Phoo Phoo Khaing Thinn** (2021-miit-cse-051)
+* Role - Frontend Developer / Documentation
 
 
 
