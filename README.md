@@ -20,7 +20,7 @@ This is a specialized mobile app designed to help people find the best local spo
 
 ## What It Does
 
-* **Smart Discovery:** Uses real-time GPS and the **k-Nearest Neighbors (k-NN)** algorithm to find shops closest to you.
+* **Smart Discovery:** Uses real-time GPS and the **k-Nearest Neighbors (k-NN)** algorithm to find shops closest to you. Also include Routing system which will show a path to a desired location .
 
 
 * **Detailed Info:** Gives you the scoop on seating capacity, Wi-Fi, pricing, and specialized services.
