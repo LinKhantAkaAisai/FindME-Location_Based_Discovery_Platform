@@ -47,4 +47,4 @@
 
 1. **Clone the repo:**
    ```bash
-  [ git clone <your-repository-url>](https://github.com/LinKhantAkaAisai/FindME-Location_Based_Discovery_Platform)
+  [ git clone <(https://github.com/LinKhantAkaAisai/FindME-Location_Based_Discovery_Platform)>]
