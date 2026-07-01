@@ -1,73 +1,50 @@
-# FindME-Location_Based_Discovery_Platform
+# FindME: Location-Based Discovery Platform
+### *MIIT School Project*
 
-# MIIT School Project 
-
-
-This is a specialized mobile app designed to help people find the best local spots like cafes, salons, and cosmetic shops. Instead of just giving you a random address, it gives you the specific details you actually care about—like if a cafe has a quiet meeting room or what specific beauty treatments a salon offers.
-
-## The Team
-
-* **Lin Khant Min Maung** (2021-miit-cse-027)
-* Role - Frontend Developer / Backend Developer
-
-* **Min Thu Khaing** (2021-miit-cse-034)
-* Role - Backend Developer
-
-* **Phoo Phoo Khaing Thinn** (2021-miit-cse-051)
-* Role - Frontend Developer / Documentation
-
-
-
-## What It Does
-
-* **Smart Discovery:** Uses real-time GPS and the **k-Nearest Neighbors (k-NN)** algorithm to find shops closest to you. Also include Routing system which will show a path to a desired location .
-
-
-* **Detailed Info:** Gives you the scoop on seating capacity, Wi-Fi, pricing, and specialized services.
-
-
-* **Trending & Fresh:** A weighted scoring system shows you what’s popular based on reviews and photos, while the "Newest" filter shows what just opened.
-
-
-* **Social Interaction:** You can follow friends, leave reviews, and upload photos to the "photo booth".
-
-
-
-## The Tech Stack
-
-* **Frontend:** React Native (Cross-platform mobile) 
-
-
-* **Backend:** Node.js with Express.js 
-
-
-* **Database:** PostgreSQL with **PostGIS** for heavy-duty map math 
-
-
-* **Maps:** OpenStreetMap API 
-
-
-
-## How to Get It Running
-
-1. **Clone the repo:** Grab the code from GitHub.
-2. **Setup Database:** You’ll need a PostgreSQL instance with the PostGIS extension enabled.
-3. **Install Dependencies:** Run `npm install` in both the frontend and backend folders.
-4. **Environment Variables:** Create a `.env` file based on the `.env.example` 
-5. **Start the Engines:** Run the backend server first, then launch the React Native app.
-
-
-
-## 🌟 Key Social Highlights
-- **Unified Comments**: Real-time interaction available on any post.
-- **Flexible Profiles**: Hybrid grid/timeline views for user expression.
-- **Geo-Discovery**: Integrated map picking and check-in tagging.
-- **Shop Hierarchy**: Premium tiers with dedicated dashboards for owners.
+**FindME** is a hybrid mobile application that bridges the gap between social media networks and map-based exploration apps like Google Maps. It combines user-driven social feeds with real-time geospatial tracking to help users discover and navigate to local hotspots like cafes, salons, and cosmetic shops. Instead of just pinning a static address, FindME provides granular, crowdsourced insights—like whether a cafe has a quiet workspace or what treatments a salon offers—alongside an active community feed.
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend**: React Native, Expo, React Navigation, Ionicons.
-- **Backend**: Express.js, PostgreSQL, Multer (Media), JWT (Auth).
+## 👥 The Team
 
+* **Lin Khant Min Maung (2021-miit-cse-027)**  
+  * *Role:* Frontend Developer / Backend Developer
+* **Min Thu Khaing (2021-miit-cse-034)**  
+  * *Role:* Backend Developer
+* **Phoo Phoo Khaing Thinn (2021-miit-cse-051)**  
+  * *Role:* Frontend Developer / Documentation
 
+---
+
+## 🚀 Core Features
+
+* **Smart Discovery & Live Routing:** Merges real-time GPS tracking with the **k-Nearest Neighbors (k-NN)** algorithm to find spots closest to you, paired with an integrated routing system that draws a direct path straight to your chosen destination.
+* **Granular Spot Insights:** Digs deeper than standard maps by providing niche operational details like seating capacity, Wi-Fi quality, pricing tiers, and specialized services.
+* **Trending & Fresh:** A weighted scoring system surfaces what’s popular based on community reviews and photos, while a "Newest" filter highlights freshly opened local gems.
+* **The Social Feed:** Connects you with a community where you can follow friends, share real-time updates, leave reviews, and upload photos directly to the shared "Photo Booth."
+
+---
+
+## 🛠️ The Tech Stack
+
+* **Frontend:** React Native, Expo, React Navigation, Ionicons (Cross-platform mobile)
+* **Backend:** Node.js with Express.js, Multer (Media management), JWT (Authentication)
+* **Database:** PostgreSQL with **PostGIS** extension for heavy-duty geospatial processing, location queries, and route handling
+* **Maps:** OpenStreetMap API
+
+---
+
+## 🌟 Key Hybrid Highlights
+
+* **Unified Social Comments:** Engage in real-time interactions and discussions directly on any shop page or user post.
+* **Flexible Profiles:** Hybrid grid and timeline views that feel like modern social networks but center around geographic check-ins.
+* **Interactive Routing & Tagging:** Seamlessly pick locations on the map, generate real-time navigation paths, and tag your profile with live check-ins.
+* **Shop Hierarchy:** Premium business tiers featuring dedicated data dashboards tailored for shop owners.
+
+---
+
+## ⚙️ How to Get It Running
+
+1. **Clone the repo:**
+   ```bash
+  [ git clone <your-repository-url>](https://github.com/LinKhantAkaAisai/FindME-Location_Based_Discovery_Platform)
