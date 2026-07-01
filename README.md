@@ -46,5 +46,5 @@
 ## ⚙️ How to Get It Running
 
 1. **Clone the repo:**
-   ```bash
+   `(https://github.com/LinKhantAkaAisai/FindME-Location_Based_Discovery_Platform)``bash
   [ git clone <(https://github.com/LinKhantAkaAisai/FindME-Location_Based_Discovery_Platform)>]
